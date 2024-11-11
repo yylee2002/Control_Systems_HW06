@@ -16,7 +16,7 @@ grid on;
 title("");
 %axis([-inf, 7, -1.003, -0.9]);
 set(figa, "position", [100, 50, 1000, 550]);
-saveas(figa, "HW06/Fig/a_Root_Locus.png");
+%saveas(figa, "HW06/Fig/a_Root_Locus.png");
 
 [K, p] = rlocfind(sysL, -1.0915 + 1.0869i);
 
@@ -33,4 +33,4 @@ grid on;
 title("");
 %axis([-inf, 7, -1.003, -0.9]);
 set(figd, "position", [200, 50, 1000, 550]);
-saveas(figd, "HW06/Fig/d_Step_Response.png");
+%saveas(figd, "HW06/Fig/d_Step_Response.png");
